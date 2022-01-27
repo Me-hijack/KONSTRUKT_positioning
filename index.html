@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;600&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Konstruct</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- <div class="header_wrapper"> -->
+        <header class="header">
+            <select class="select" name="lanuage" id="">
+                <option class="option" value="english">ENG</option>
+                <option class="option" value="ukrainian">UA</option>
+                <option class="option" value="polish">PL</option>
+            </select>
+            <ul class="nav">
+                <li class="nav_item">
+                    <a href="#">Documentation</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#">Who's using</a>
+                </li>
+            </ul>
+            <div class="logo">
+                <img src="./img/company-logo-black.svg" alt="Logo">
+            </div>   
+        </header>
+    <!-- </div> -->
+        <div class="container">
+        <aside class="aside">
+            <ul class="menu">
+                <li class="menu_item">Introduction</li>
+                <li class="menu_item">Core Components</li>
+                <li class="menu_item">React Fundamentals</li>
+                <li class="menu_item">Handling text input</li>
+            </ul>
+        </aside>
+        <main class="main">
+            <section class="section">
+                <h2 class="title_2">Introduction</h2>
+                <p>Welcome to the very start of your React Native journey! If you're looking for environment setup
+                    instructions, they've moved to <a href="#">their own section</a>. Continue reading for an introduction
+                    to the documentation, Native Components, React, and more!</p>
+            </section>
+            <section class="section">
+                <h2 class="title_2">Core Components</h2>
+                <p>React Native is an open source framework for building Android and iOS applications using React and the
+                    app platform&apos;s native capabiles. With React Native, you use JavaScript to access your
+                    platform&apos;s APIs as well as to describe the appearance and behavior of your UI using React
+                    components: bundles of reusable, nestable code. You can learn more about React in the next section. But
+                    first, let&apos;s cover how components work in React Native.</p>
+            </section>
+            <section class="section">
+                <h2 class="title_2">React Fundamentals</h2>
+                <p>React Native runs on <a href="">React</a>, a popular open source library for building user interfaces
+                    with JavaScript. To make the most of React Native, it helps to understand React itself. This section can
+                    get you started or can serve as a refresher course.</p>
+                <h3 class="title_3">We&apos;re going to cover the core concepts behind React:</h3>
+                <ul class="section_list">
+                    <li class="list_item"><strong>+ components. </strong>The rest of this introduction
+                        to React uses cats in its examples: friendly, approachable creatures that need names and a cafe to
+                        work in</li>
+                    <li class="list_item"><strong>+ JSX. </strong>React and React Native use JSX, a
+                        syntax that lets you write elements inside JavaScript like so: <span
+                            class="text_highlight">&lt;Text&gt;Hello, I am your cat!&lt;&#47;Text&gt;</span>. The React docs
+                        have <a href="#">a comprehensive guide to JSX</a> you can refer to learn even more. Because JSX is
+                        JavaScript, you can use variables inside it. Here you are declaring a name for the cat, name, and
+                        embedding it with curly braces inside <span class="text_highlight">&lt;Text&gt;</span>.</li>
+                    <li class="list_item"><strong>+ props. </strong>Props is short for “properties”.
+                    </li>
+                    <li class="list_item"><strong>+ state. </strong>While you can think of props as
+                        arguments you use to configure how components render, state is like a component&apos;s personal data
+                        storage. State is useful for handling data that changes over time or that comes from user
+                        interaction. State gives your components memory!</li>
+                </ul>
+
+            </section>
+            <section class="section">
+                <h2 class="title_2">Handling Text Input</h2>
+                <p>TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that takes
+                    a function to be called every time the text changed, and an onSubmitEditing prop that takes a function
+                    to be called when the text is submitted.</p>
+                <p>For example, let's say that as the user types, you're translating their words into a different language.
+                    In this new language, every single word is written the same way: 🍕. So the sentence "Hello there Bob"
+                    would be translated as "🍕 🍕".</p>
+            </section>
+        </main>
+    </div>
+</div>
+</body>
+
+</html>
